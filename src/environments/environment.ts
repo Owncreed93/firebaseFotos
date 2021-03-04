@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyB44R94hrCKIisi-keOwQzwKGPmcVz0Mrc',
+    authDomain: 'tarifeno-firebasefotos.firebaseapp.com',
+    projectId: 'tarifeno-firebasefotos',
+    storageBucket: 'tarifeno-firebasefotos.appspot.com',
+    messagingSenderId: '5161913862',
+    appId: '1:5161913862:web:d519acec7e86a91e243d87',
+    measurementId: 'G-G6DGVL26RH'
+  }
 };
 
 /*
