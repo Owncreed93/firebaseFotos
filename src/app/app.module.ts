@@ -10,6 +10,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { CargaComponent } from './components/carga/carga.component';
 
+
+
 // ************************************* ROUTES *************************************** //
 
 import { APP_ROUTES } from './app.routes';
@@ -18,11 +20,16 @@ import { APP_ROUTES } from './app.routes';
 
 import { environment } from '../environments/environment';
 
+// ************************************* DIRECTIVES ******************************* //
+
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
     FotosComponent,
-    CargaComponent
+    CargaComponent,
+    NgDropFilesDirective
   ],
   imports: [
     BrowserModule,
