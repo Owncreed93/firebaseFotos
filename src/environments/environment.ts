@@ -7,6 +7,7 @@ export const environment = {
   firebase: {
     apiKey: 'AIzaSyB44R94hrCKIisi-keOwQzwKGPmcVz0Mrc',
     authDomain: 'tarifeno-firebasefotos.firebaseapp.com',
+    databaseURL: 'https://tarifeno-firebasefotos-default-rtdb.firebaseio.com',
     projectId: 'tarifeno-firebasefotos',
     storageBucket: 'tarifeno-firebasefotos.appspot.com',
     messagingSenderId: '5161913862',
